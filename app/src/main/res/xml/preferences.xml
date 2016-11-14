@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/general">
+        <ListPreference
+            android:entries="@array/entries_count"
+            android:entryValues="@array/entry_values_count"
+            android:key="pref_count"
+            android:defaultValue="20"
+            android:summary=""
+            android:title="@string/count_item">
+        </ListPreference>
+        <ListPreference
+            android:entries="@array/entries_fonts"
+            android:entryValues="@array/entry_values_fonts"
+            android:key="pref_font"
+            android:defaultValue="14"
+            android:summary=""
+            android:title="@string/size_font">
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/other">
+        <ListPreference
+            android:entries="@array/entries_theme"
+            android:entryValues="@array/entry_values_theme"
+            android:key="pref_theme"
+            android:defaultValue="0"
+            android:summary=""
+            android:title="@string/night_mode">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

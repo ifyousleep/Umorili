@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Umori.li</string>
+    <string name="permission">Для сохранения цитат в галерею надо разрешить приложению доступ к памяти телефона,
+        нажав Ок в следующем окне.</string>
+    <string name="ifyou">Баранов Артём \nВерсия: 1.1\nAPI: http://www.umori.li/api/\nifyousleep@gmail.com\n2016\n</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="error">Ошибка! Попробуйте еще раз!</string>
+    <string name="thanks">Спасибо!</string>
+    <string name="succes">Успешно!</string>
+    <string name="afterSave">Цитата сохранена в галерею как изображение</string>
+
+    <string name="about">Информация</string>
+    <string name="up">Вверх</string>
+
+    <string name="settings">Настройки</string>
+    <string name="general">Основные</string>
+    <string name="other">Остальные</string>
+    <string name="size_font">Размер шрифта</string>
+    <string name="night_mode">Ночная тема</string>
+    <string name="count_item">Количество цитат</string>
+
+    <string-array name="entries_count">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="entry_values_count">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="entries_theme">
+        <item>Выключить</item>
+        <item>Включить</item>
+        <item>Автоматически</item>
+    </string-array>
+    <string-array name="entry_values_theme">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_fonts">
+        <item>Маленький</item>
+        <item>Нормальный</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="entry_values_fonts">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="add_actions">
+        <item>Поделиться</item>
+        <item>Копировать</item>
+        <item>Сохранить</item>
+    </string-array>
+
+    <string-array name="nav_actions">
+        <item>Цитатник Рунета</item>
+        <item>Цитатник Рунета - Бездна</item>
+        <item>IT Happens</item>
+        <item>Задолба!ли</item>
+        <item>Свежие анекдоты</item>
+        <item>Новые истории</item>
+        <item>Новые афоризмы</item>
+        <item>Стишки</item>
+        <item>Подслушано</item>
+        <item>Говорят дети</item>
+        <item>XKCDB</item>
+    </string-array>
+
+    <integer-array name="nav_imgs">
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+        <item>@drawable/ic_pets</item>
+    </integer-array>
+
+</resources>
