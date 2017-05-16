@@ -2,6 +2,7 @@ package com.ifyou.umorili
 
 import android.app.Application
 import android.content.Context
+import com.google.gson.GsonBuilder
 import com.ifyou.umorili.net.API
 import com.ifyou.umorili.utils.TypefaceUtil
 import com.ifyou.umorili.utils.setNightMode
@@ -12,8 +13,8 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.io.File
-import kotlin.properties.Delegates
 import java.util.concurrent.TimeUnit
+import kotlin.properties.Delegates
 
 var appContext: Context? = null
 
@@ -36,7 +37,7 @@ class App : Application() {
 
         val retrofit = Retrofit.Builder()
                 .client(client)
-                .baseUrl("http://www.umori.li/api/")
+                .baseUrl("http://umorili.herokuapp.com/api/")
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()

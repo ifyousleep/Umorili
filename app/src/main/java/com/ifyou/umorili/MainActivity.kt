@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var sharedPreferences: SharedPreferences
 
     private fun handleMessage(msg: Message): Boolean {
-        if (msg.what === 5)
+        if (msg.what == 5)
             recreate()
         return true
     }
@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
                     .setMessage(getString(R.string.permission))
                     .setCancelable(false)
                     .setPositiveButton(android.R.string.ok, {
-                        dialogInterface, i ->
+                        dialogInterface, _ ->
                         dialogInterface.dismiss()
                         requestStoragePermission()
                     })
@@ -144,55 +144,55 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.container, MainFragment.newInstance("bash.im", "abyss", count))
                         .commit()
             }
-            2 -> {
+            /*2 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("ithappens.me", "ithappens", count))
                         .commit()
-            }
-            3 -> {
+            }*/
+            2 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("zadolba.li", "zadolbali", count))
                         .commit()
             }
-            4 -> {
+            3 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new anekdot", count))
                         .commit()
             }
-            5 -> {
+            4 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new story", count))
                         .commit()
             }
-            6 -> {
+            5 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new aforizm", count))
                         .commit()
             }
-            7 -> {
+            6 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new stihi", count))
                         .commit()
             }
-            8 -> {
+            7 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("ideer.ru", "ideer", count))
                         .commit()
             }
-            9 -> {
+            8 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("det.org.ru", "Deti", count))
                         .commit()
             }
-            10 -> {
+            9 -> {
                 supportFragmentManager.beginTransaction()
                         //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("xkcdb.com", "XKCDB", count))

@@ -16,6 +16,7 @@ import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 import kotlin.properties.Delegates
 
+
 abstract class RxRetrofitFragment : Fragment() {
 
     private val BUNDLE_ID = "state"

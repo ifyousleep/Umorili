@@ -2,7 +2,7 @@
     <string name="app_name">Umori.li</string>
     <string name="permission">Для сохранения цитат в галерею надо разрешить приложению доступ к памяти телефона,
         нажав Ок в следующем окне.</string>
-    <string name="ifyou">Баранов Артём \nВерсия: 1.1\nAPI: http://www.umori.li/api/\nifyousleep@gmail.com\n2016\n</string>
+    <string name="ifyou">Баранов Артём \nВерсия: 1.2\nAPI: http://www.umori.li/api/\nifyousleep@gmail.com\n2016\n</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="error">Ошибка! Попробуйте еще раз!</string>

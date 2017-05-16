@@ -38,7 +38,7 @@ class MainAdapter(val context: Context, val data: List<Any>, val size: Float) : 
             itemView.itemText.text = result
 
             itemView.card.setOnClickListener(
-                    { view ->
+                    { _ ->
 
                     }
             )

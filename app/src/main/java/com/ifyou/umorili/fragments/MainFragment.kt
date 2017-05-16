@@ -84,7 +84,7 @@ class MainFragment : RxRetrofitFragment() {
 
     private fun onCreateDialog(bitmap: Bitmap, position: Int, data: List<Any>): Dialog? {
         val builder = AlertDialog.Builder(activity)
-        builder.setItems(R.array.add_actions) { dialog, which -> selectList(bitmap, which, position, data) }
+        builder.setItems(R.array.add_actions) { _, which -> selectList(bitmap, which, position, data) }
         return builder.create()
     }
 
