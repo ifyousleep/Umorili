@@ -20,7 +20,6 @@ import com.ifyou.umorili.utils.ClickListener
 import com.ifyou.umorili.utils.RecyclerTouchListener
 import kotlinx.android.synthetic.main.fragment_main.view.*
 import kotlinx.android.synthetic.main.retrofit_error.view.*
-import org.jetbrains.anko.support.v4.toast
 import org.jetbrains.anko.support.v4.withArguments
 import rx.Observable
 

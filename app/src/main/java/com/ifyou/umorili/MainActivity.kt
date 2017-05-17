@@ -5,7 +5,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
@@ -14,9 +13,12 @@ import android.support.v4.content.ContextCompat
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AlertDialog
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.preference.PreferenceManager
 import android.support.v7.widget.LinearLayoutManager
-import android.view.*
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
 import com.ifyou.umorili.adapters.DrawerAdapter
 import com.ifyou.umorili.fragments.MainFragment
 import com.ifyou.umorili.utils.ClickListener
@@ -134,67 +136,51 @@ class MainActivity : AppCompatActivity() {
         when (item) {
             0 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("bash.im", "bash", count))
                         .commit()
             }
             1 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("bash.im", "abyss", count))
                         .commit()
             }
-            /*2 -> {
-                supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
-                        .replace(R.id.container, MainFragment.newInstance("ithappens.me", "ithappens", count))
-                        .commit()
-            }*/
             2 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("zadolba.li", "zadolbali", count))
                         .commit()
             }
             3 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new anekdot", count))
                         .commit()
             }
             4 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new story", count))
                         .commit()
             }
             5 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new aforizm", count))
                         .commit()
             }
             6 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("anekdot.ru", "new stihi", count))
                         .commit()
             }
             7 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("ideer.ru", "ideer", count))
                         .commit()
             }
             8 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("det.org.ru", "Deti", count))
                         .commit()
             }
             9 -> {
                 supportFragmentManager.beginTransaction()
-                        //.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit)
                         .replace(R.id.container, MainFragment.newInstance("xkcdb.com", "XKCDB", count))
                         .commit()
             }

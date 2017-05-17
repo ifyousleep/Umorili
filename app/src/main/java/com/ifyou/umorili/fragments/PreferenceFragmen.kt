@@ -39,7 +39,7 @@ class PreferenceFragment : PreferenceFragmentCompat() {
         count.summary = count.entry
     }
 
-    private val changeListener = SharedPreferences.OnSharedPreferenceChangeListener { sharedPreferences, key ->
+    private val changeListener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
         when (key) {
             PREF_THEME -> {
                 theme.summary = theme.entry

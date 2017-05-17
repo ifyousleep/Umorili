@@ -64,7 +64,6 @@
     <string-array name="nav_actions">
         <item>Цитатник Рунета</item>
         <item>Цитатник Рунета - Бездна</item>
-        <item>IT Happens</item>
         <item>Задолба!ли</item>
         <item>Свежие анекдоты</item>
         <item>Новые истории</item>
@@ -76,7 +75,6 @@
     </string-array>
 
     <integer-array name="nav_imgs">
-        <item>@drawable/ic_pets</item>
         <item>@drawable/ic_pets</item>
         <item>@drawable/ic_pets</item>
         <item>@drawable/ic_pets</item>

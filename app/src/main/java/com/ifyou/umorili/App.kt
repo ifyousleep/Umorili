@@ -2,7 +2,6 @@ package com.ifyou.umorili
 
 import android.app.Application
 import android.content.Context
-import com.google.gson.GsonBuilder
 import com.ifyou.umorili.net.API
 import com.ifyou.umorili.utils.TypefaceUtil
 import com.ifyou.umorili.utils.setNightMode
